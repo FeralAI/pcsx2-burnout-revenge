@@ -1,0 +1,10 @@
+//Burnout Revenge (U)(SLUS-21242) (source of the fix: https://www.youtube.com/watch?v=fXY97XEIQQ8)
+
+[Disable Bloom]
+patch=1,EE,21BFE7B8,byte,00000000 // 00000001 // Bloom
+
+[Disable Fog]
+patch=1,EE,21BFE7B9,byte,00000000 // 00000001 // Fog
+
+[Disable Motion Blur]
+patch=1,EE,21BFE7BA,byte,00000000 // 00000001 // Motion blur
